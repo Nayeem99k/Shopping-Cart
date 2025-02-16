@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart with Promo Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Nayeem Tach</h1>
+    <div class="checkout-container">
+        <h2>Checkout</h2>
+        <div class="cart-summary">
+            <p>Subtotal: $<span id="subtotal">1000.00</span></p>
+            <input type="text" id="promoCode" placeholder="Enter promo code">
+            <button onclick="applyPromoCode()">Apply</button>
+            <p class="message" id="message"></p>
+            <p>Discount: $<span id="discount">0.00</span></p>
+            <h3>Total: $<span id="total">1000.00</span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
